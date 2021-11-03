@@ -1,0 +1,15 @@
+.reveal blockquote p:first-child, .reveal blockquote p:last-child {
+    display: block;
+}
+.reveal blockquote {
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.2);
+    border-left: #2bf solid 5px;
+}
+.reveal blockquote:hover{
+    background: rgba(255, 255, 255, 0.3);
+    transition: transform .5s;
+}
+.reveal p{
+    text-shadow: 0 0 10px black;
+}
