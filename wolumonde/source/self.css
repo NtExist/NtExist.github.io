@@ -5,11 +5,39 @@
     font-style: normal;
     background: rgba(255, 255, 255, 0.2);
     border-left: #2bf solid 5px;
+    -webkit-text-stroke: 2.2px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-shadow: 0 0 6px #000;
+    margin-bottom: 15px;
 }
-.reveal blockquote:hover{
-    background: rgba(255, 255, 255, 0.3);
-    transition: transform .5s;
+.reveal blockquote:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transition: .2s;
 }
-.reveal p{
-    text-shadow: 0 0 10px black;
+.reveal p{ 
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-shadow: 0 0 6px #000;
+    margin-bottom: 15px;
+}
+.reveal em {
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-shadow: 0 0 6px #000;
+    margin-bottom: 15px;
+
+}
+.title{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+.chinese{
+    font-family: 宋体;
+    color: #F8E678;
+    font-size: 80px;
+}
+.english{
+    font-family: "Monospace", "Courier New";
+    color: #fff;
+    font-size: 80px;
 }
