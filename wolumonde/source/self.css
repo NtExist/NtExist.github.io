@@ -1,10 +1,24 @@
+.reveal{
+    background: black;
+}
 .reveal blockquote p:first-child, .reveal blockquote p:last-child {
     display: block;
 }
 .reveal blockquote {
+    width: 85%;
     font-style: normal;
     background: rgba(255, 255, 255, 0.2);
     border-left: #2bf solid 5px;
+    -webkit-text-stroke: 2.2px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-shadow: 0 0 6px #000;
+    margin-bottom: 15px;
+}
+.reveal blockquote.out{
+    width: 85%;
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.2);
+    border-left: #f24 solid 5px;
     -webkit-text-stroke: 2.2px rgba(0, 0, 0, 0.8);
     font-weight: bold;
     text-shadow: 0 0 6px #000;
@@ -14,7 +28,7 @@
     background: rgba(255, 255, 255, 0.25);
     transition: .2s;
 }
-.reveal p{ 
+.reveal p{
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.8);
     font-weight: bold;
     text-shadow: 0 0 6px #000;
@@ -40,4 +54,21 @@
     font-family: "Monospace", "Courier New";
     color: #fff;
     font-size: 80px;
+}
+.reveal table{
+    border: 2px solid #a2a9b1;
+}
+.reveal table th, .reveal table tr, .reveal table td{
+    padding: .1em;
+    background: #f6f6f6;
+    border: unset;
+    vertical-align: middle;
+    text-align: center;
+}
+.reveal table p{
+    font-size: 30px;
+    -webkit-text-stroke: unset;
+    font-weight: normal;
+    text-shadow: none;
+    margin: .1em;
 }
